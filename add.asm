@@ -1,0 +1,16 @@
+section .data
+   	
+
+section .text
+	global _start
+
+_start:
+	
+	mov rax, 5
+	add rax, 5
+
+	mov rax, 60
+	mov rdi, 0
+	syscall
+
+
